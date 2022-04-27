@@ -3,15 +3,21 @@
     --default-font-family: 'Poppins', sans-serif;
     --primary-color: #163172;
     --secondary-color: #F9F7FE;
+    --default-font-color: #272142;
 }
 
 
-h1 {
+h1, h3 {
     font-family: var(--heading-font-family);
 }
 
 p {
     font-family: var(--default-font-family);
+    color: var(--default-font-color);
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .hero {
@@ -21,9 +27,11 @@ p {
 }
 
 .hero p {
-    font-weight: bold;
     font-size: 36px;
+    font-weight: 700;
     margin: 0;
+    line-height: 54px;
+    opacity: 100;
 }
 
 .hero h1 {
@@ -31,16 +39,60 @@ p {
 }
 
 .hero h2 {
-    color: #272142;
+    color: var(--default-font-color);
     font-size: 24px;
-    font-weight: normal;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 .btn-branding {
-    background: #163172;
+    background: var(--primary-color);
     border-radius: 4px;
     padding: 18px 30px;
     color: white;
     text-decoration: none;
     font-size: 18px;
+}
+
+.sub-heading {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+}
+
+.container {
+    padding: 60px 50px;
+}
+
+.btn-launching {
+    border-radius: 4px;
+    padding: 18px 30px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgba(22, 49, 114, 1)
+}
+
+.description {
+    padding: 70px 30px;
+}
+
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 32px;
+    }
+
+    .sub-heading {
+        font-size: 42px;
+    }
+    
+    .description {
+        padding: 0;
+        text-align: center;
+    }
 }
