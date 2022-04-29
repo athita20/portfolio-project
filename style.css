@@ -79,15 +79,15 @@ p {
     padding: 50px 30px;
 }
 
-.about-hero {
-    padding: 90px 40px 40px 40px;
+.content {
+    padding: 120px 60px;
 }
 
-.about-hero h1 {
+.content h1 {
     font-size: 64px;
 }
 
-.about-hero h2 {
+.content h2 {
     font-size: 18px;
     font-weight: bold;
     line-height: 27px;
@@ -110,21 +110,17 @@ p {
         font-size: 32px;
     }
 
-    .about-hero {
+    .content {
         padding: 0;
     }
 
-    .about-hero h1 {
+    .content h1 {
         font-size: 50px;
         text-align: center;
     }
 
     .music-channel-content {
         padding: 40px 40px;
-    }
-
-    img .channel-profile {
-        max-width: 50px;
     }
 
     .sub-heading {
