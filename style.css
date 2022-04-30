@@ -62,9 +62,6 @@ p {
     line-height: 85px;
 }
 
-.container {
-    padding: 60px 50px;
-}
 
 .btn-launching {
     border-radius: 4px;
@@ -76,7 +73,7 @@ p {
 }
 
 .description {
-    padding: 50px 30px;
+    padding: 30px 30px;
 }
 
 .content {
@@ -101,6 +98,10 @@ p {
     font-size: 42px;
 }
 
+.launch-blog span {
+    margin: 10px;
+}
+
 @media (max-width: 992px) {
     .hero h1 {
         font-size: 50px;
@@ -111,7 +112,7 @@ p {
     }
 
     .content {
-        padding: 0;
+        padding: 15px;
     }
 
     .content h1 {
@@ -128,7 +129,11 @@ p {
     }
     
     .description {
-        padding: 0;
+        padding: 20px 0;
         text-align: center;
+    }
+
+    .launch-blog .btn-launching {
+        padding: 18px 15px;
     }
 }
