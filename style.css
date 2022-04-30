@@ -8,7 +8,7 @@
 }
 
 
-h1, h3 {
+h1, h2, h3 {
     font-family: var(--heading-font-family);
 }
 
@@ -39,7 +39,7 @@ p {
     font-size: 96px;
 }
 
-.hero h2 {
+.hero h4 {
     color: var(--default-font-color);
     font-size: 24px;
     font-weight: 400;
@@ -77,7 +77,7 @@ p {
 }
 
 .content {
-    padding: 120px 60px;
+    padding: 120px 70px;
 }
 
 .content h1 {
@@ -100,6 +100,10 @@ p {
 
 .launch-blog span {
     margin: 10px;
+}
+
+.endnote-list {
+    font-size: 15px;
 }
 
 @media (max-width: 992px) {
