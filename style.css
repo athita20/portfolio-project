@@ -187,6 +187,11 @@ footer h5 {
         text-align: center;
     }
 
+    .blog-heading .btn-launching {
+        padding: 10px 10px;
+
+    }
+
     .launch-blog .btn-launching {
         padding: 18px 15px;
     }
