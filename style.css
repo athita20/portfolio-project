@@ -15,7 +15,7 @@ h1, h2, h3, h5 {
     font-family: var(--heading-font-family), var(--thai-default-font-family);
 }
 
-p {
+p, ul {
     font-family: var(--default-font-family), var(--thai-default-font-family);
     color: var(--default-font-color);
     opacity: 70%;
@@ -80,7 +80,7 @@ p {
 }
 
 .content {
-    padding: 120px 70px;
+    padding: 120px 70px 30px 70px;
 }
 
 .content h1, .music-channel-content h1 {
@@ -111,6 +111,15 @@ img {
 
 .endnote-list {
     font-size: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.email-link {
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 footer {
@@ -153,7 +162,7 @@ footer h5 {
     }
 
     .content {
-        padding: 80px 20px;
+        padding: 80px 20px 10px 20px;
     }
 
     .content h1, .music-channel-content h1 {
