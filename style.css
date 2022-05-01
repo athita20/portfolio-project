@@ -11,7 +11,7 @@
     margin-right: 10px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-family: var(--heading-font-family), var(--thai-default-font-family);
 }
 
@@ -113,6 +113,36 @@ img {
     font-size: 15px;
 }
 
+footer {
+    padding: 40px;
+}
+
+footer h5 {
+    font-size: 48px;
+}
+
+.contact-box {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    margin: 40px;
+}
+
+.contact-box .btn-branding {
+    position: relative;
+    top: 40px;
+    right: 20px;
+}
+
+.social-links a{
+    font-size: 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.social-links i {
+    margin-right: 15px;
+}
+
 @media (max-width: 992px) {
     .hero h1 {
         font-size: 50px;
@@ -139,7 +169,7 @@ img {
         padding: 40px 40px;
     }
 
-    .sub-heading {
+    .sub-heading, footer h5 {
         font-size: 42px;
     }
     
