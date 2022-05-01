@@ -15,7 +15,7 @@ h1, h2, h3, h5 {
     font-family: var(--heading-font-family), var(--thai-default-font-family);
 }
 
-p, ul {
+p, .work-contact {
     font-family: var(--default-font-family), var(--thai-default-font-family);
     color: var(--default-font-color);
     opacity: 70%;
