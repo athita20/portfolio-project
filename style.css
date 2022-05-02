@@ -134,6 +134,11 @@ footer h5 {
     font-size: 48px;
 }
 
+footer a {
+    color: #0e4cdd;
+    text-decoration: none;
+}
+
 .contact-box {
     background-color: var(--secondary-color);
     padding: 40px;
