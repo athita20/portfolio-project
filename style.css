@@ -110,7 +110,7 @@ img {
 }
 
 .endnote-list {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 ul {
@@ -153,6 +153,10 @@ footer h5 {
 }
 
 @media (max-width: 992px) {
+    .hero {
+        padding: 100px 20px;
+    }
+    
     .hero h1 {
         font-size: 50px;
     }
@@ -162,7 +166,8 @@ footer h5 {
     }
 
     .content {
-        padding: 80px 20px 10px 20px;
+        padding: 80px 0 0;
+        margin-bottom: 0;
     }
 
     .content h1, .music-channel-content h1 {
@@ -183,16 +188,24 @@ footer h5 {
     }
     
     .description {
-        padding: 20px 0;
+        padding: 20px 0 0;
         text-align: center;
     }
 
-    .blog-heading .btn-launching {
+    .blog-heading h1 {
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .blog-heading h3 {
+        text-align: left;
+    }
+
+    .blog-heading .btn-launching, .launch-blog .btn-launching {
         padding: 10px 10px;
-
     }
 
-    .launch-blog .btn-launching {
-        padding: 18px 15px;
+    .contact-page  {
+        text-align: center;
     }
-}
+    }
