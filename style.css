@@ -7,8 +7,12 @@
     --default-font-color: #272142;
 }
 
-.nav-item{
-    margin-right: 10px;
+.nav-item {
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    font-family: var(--heading-font-family);
 }
 
 h1, h2, h3, h5 {
